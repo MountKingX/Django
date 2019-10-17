@@ -1,13 +1,16 @@
-# Django
-Some Django practice projects
+# djstarter project
 
-* djstarter (skeleton project)
+Python version 3.7 | Django version 2.2.6
 
+Current applications:
+* hello_wold_app (demo-app)
+
+---
 
 ## Instructions
 
 ### PyCharm (suggested)
-- easy-to-follow IDE and manage env
+- easy-to-follow IDE, easy run
 
 ### Conda + Atom
 
