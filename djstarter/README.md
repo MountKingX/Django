@@ -20,5 +20,12 @@ Current applications:
 - run `django-admin startproject my_project` to create a skeleton project
 - run `cd my_project` then `python manage.py runserver` to run project in localhost (http://127.0.0.1:8000)
 - run `python manage.py startapp my_app` to create a skeleton app
+
 ---
+
+In Windows, run `. ./venv/Scripts/activate` to activate virtual env
+
+run `winpty python manage.py createsuperuser` to create admin user
+
+
 last updated on Oct-2019
