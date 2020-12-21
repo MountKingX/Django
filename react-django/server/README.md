@@ -1,5 +1,7 @@
 # Backend (server) preparation
 
+IDE: PyCharm
+
 ### Step-01 initial setup
 ```bash
 # starting from project-root: react-django directory
