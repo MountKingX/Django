@@ -1,9 +1,9 @@
 # djstarter project
 
-Python version 3.7 | Django version 2.2.6
+Python version 3.8 | Django version 3.1.4
 
 Current applications:
-* hello_wold_app (demo-app)
+* demo-app (from official site)
 
 ---
 
@@ -22,10 +22,18 @@ Current applications:
 - run `python manage.py startapp my_app` to create a skeleton app
 
 ---
+In Ubuntu, run `source ./venv/bin/activate` to activate virtual env and `deactivate` to leave
+run `python manage.py createsuperuser` to create admin user
+username: kangmin
+password: indeed
 
 In Windows, run `. ./venv/Scripts/activate` to activate virtual env
-
 run `winpty python manage.py createsuperuser` to create admin user
 
+last updated on Dec-2020
 
-last updated on Oct-2019
+
+change default python version to 3.8
+```bash
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+```
