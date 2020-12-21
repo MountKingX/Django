@@ -48,6 +48,7 @@ $ python manage.py createsuperuser
 # Password: password
 
 $ python manage.py runserver
+# http://127.0.0.1:8000/admin/
 ```
 
 ### Step-03 add CORS and Serialization support
@@ -122,6 +123,11 @@ $ python manage.py runserver
 # visit http://localhost:8000/api/todos to check all entries or create (POST) new entry
 
 # visit http://localhost:8000/api/todos/{id} to check entry with id={id} or update (PUT) current entry
+```
+
+### Appendix
+```bash
+$ pip freeze > requirements.txt
 ```
 
 Reference: https://www.digitalocean.com/community/tutorials/build-a-to-do-application-using-django-and-react
