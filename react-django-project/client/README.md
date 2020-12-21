@@ -1,6 +1,6 @@
 # Development Instructions
 
-IDE: atom
+IDE: atom or vscode
 
 ### Step-0 initial setup
 ```bash

@@ -1,6 +1,16 @@
-# Backend (server) preparation
+# React-Django Project Description
+
+-----
+
+## Frontend (client)
+Please check client/README.md
+
+-----
+
+## Backend (server)
 
 IDE: PyCharm
+libs: check `requirements.txt`
 
 ### Step-01 initial setup
 ```bash
