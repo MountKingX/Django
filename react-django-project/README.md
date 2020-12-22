@@ -10,7 +10,7 @@ Please check client/README.md
 ## Backend (server)
 
 IDE: PyCharm
-libs: check `requirements.txt`
+libs: check `requirements.txt` and `pip install -r requirements.txt`
 
 ### Step-01 initial setup
 ```bash
