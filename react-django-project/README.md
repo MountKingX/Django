@@ -103,7 +103,7 @@ class TodoSerializer(serializers.ModelSerializer):
 
 ```
 
-### Step-04 creating the View and setup server/urls
+### Step-04 creating the View and setup server/urls for Todo
 ```bash
 # todo/views.py
 
@@ -136,6 +136,23 @@ $ python manage.py runserver
 
 # visit http://localhost:8000/api/todos/{id} to check entry with id={id} or update (PUT) current entry
 ```
+
+### Step-05 creating the View and setup server/urls for Bookshare and User
+```bash
+$ python manage.py startapp bookshare
+$ python manage.py startapp user
+$ python manage.py makemigrations bookshare
+$ python manage.py migrate bookshare
+$ python manage.py makemigrations user
+$ python manage.py migrate user
+```
+
+
+### Faker
+```bash
+$ pip install Faker
+```
+
 
 ### Appendix
 ```bash
