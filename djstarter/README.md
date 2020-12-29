@@ -10,7 +10,7 @@ Current applications:
 ## Instructions
 
 ### PyCharm (suggested)
-- easy-to-follow IDE, easy run
+- an easy-to-follow IDE, easy run
 
 ### Conda + Atom
 
